@@ -28,6 +28,6 @@ jobs:
         with:
           build-args: |
             "LOGSTASH_VERSION=8.7.0"
-          platforms: linux/arm/v7,linux/arm64,linux/amd64
+          platforms: linux/arm64,linux/amd64
           push: true
           tags: nivg1992/logstash-docker:latest
